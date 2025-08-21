@@ -266,3 +266,27 @@ body {
     width: 1440px;
     height: 168px;
 }
+
+.phonenumber{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2C2D35;
+}
+
+.place{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #86928B;
+}
+
+.menu1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #86928B;
+}
