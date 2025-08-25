@@ -20,7 +20,7 @@ body {
     padding: 35px 165px 35px 165px;
 }
 
-.menu {
+.desk-topMenuOnly {
     gap: 60px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ body {
 }
 
 
-.menu a {
+.desk-topMenuOnly a {
     text-decoration: none;
     color: #2C2D35;
     font-weight: 500;
@@ -54,7 +54,7 @@ body {
 .replics {
     width: 540px;
     height: 331px;
-    margin-left: 30px;
+    
 }
 
 .replics h5 {
@@ -395,11 +395,74 @@ body {
     list-style-type: none;
 }
 
+.header1 {
+    display: none;
+}
+
+.menuMb {
+    display: none;
+
+}
+
+
 /*Для мобильной версии*/
 @media (max-width: 690px) {
-
-
     .header {
-        background-color: #E1EDE6;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 320px;
+        height: 65px;
+        background-color: #ffffff;
     }
-    
+
+    .desk-topMenuOnly {
+        display: none;
+    }
+
+    .menuMb {
+        background-color: #E1EDE6;
+        width: 320px;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menuMb .menuIcon {
+        margin-left: 15px;
+    }
+
+    .menuMb .cartIcon {
+        margin-right: 15px;
+    }
+
+    .bird .birdImg {
+        display: none;
+    }
+
+    .bird {
+        width: 290px;
+        height: 233px;
+        display: flex;
+        align-items: self-start;
+    }
+
+    .replics h5 {
+     font-size: 30px;
+     font-weight: 500;
+     line-height: 100%;
+     letter-spacing: 0%;
+margin-top: 60px;
+    }
+
+  .replics {
+    margin-left: 0;
+    margin-right: 0;
+   
+
+  }
+
+
+}
