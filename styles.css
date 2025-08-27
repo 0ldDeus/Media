@@ -556,5 +556,185 @@ body {
 }
 /*Для мобильной версии*/
 @media (max-width: 690px) {
-    
+
+    .header{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .desk-topMenuOnly{
+        display: none;
+    }
+
+    .bird{
+        display: none;
+    }
+
+    .birdImg{
+        display: none;
+    }
+
+    .replics{
+        display: none;
+    }
+
+    .products{
+display: none;
+    }
+
+    .reproduction{
+        display: none;
+    }
+
+    .reproduction1{
+        display: none;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .btn1{
+        display: none;
+    }
+
+    .btn2{
+        display: none;
+    }
+
+    .btn3{
+        display: none;
+    }
+
+    .cards{
+        display: none;
+    }
+
+    .card2{
+        display: none;
+    }
+
+    .author{
+        display: none;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .materials{
+        display: none;
+    }
+
+    .price{
+        display: none;
+    }
+
+    .btnc{
+        display: none;
+    }
+
+    .oldMan{
+        display: none;
+    }
+
+    .team{
+        display: none;
+    }
+
+    .text{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .column1 {
+        display: none;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .phonenumber{
+        display: none;
+    }
+
+    .place{
+        display: none;
+    }
+
+    .column2{
+        display: none;
+    }
+
+    .menu1{
+        display: none;
+    }
+
+    .rep{
+        display: none;
+    }
+
+    .country{
+        display: none;
+    }
+
+    .column3{
+        display: none;
+    }
+
+.menu2{
+    display: none;
+}
+
+.rep1{
+    display: none;
+}
+
+.column4{
+    display: none;
+}
+
+.menu3{
+    display: none;
+}
+
+.rep2{
+    display: block;
+}
+
+.column5{
+    display: none;
+}
+
+.menu4{
+    display: none;
+}
+
+
+    .headerMb {
+        width: 320px;
+        height: 130px;
+    }
+
+    .headerMb .logoMb{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fdfaf6;
+        height: 65px;
+    }
+
+    .headerMb .menuMb{
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        background-color: #E1EDE6;
+    }
 }
