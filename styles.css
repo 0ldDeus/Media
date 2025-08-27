@@ -395,74 +395,166 @@ body {
     list-style-type: none;
 }
 
-.header1 {
+.headerMb {
+    display: none;
+}
+
+.logoMb {
     display: none;
 }
 
 .menuMb {
     display: none;
-
 }
 
+.menuIcon {
+    display: none;
+}
 
+.cartIcon{
+    display: none;
+}
+
+.birdMb{
+    display: none;
+}
+
+.replicsMb{
+    display: none;
+}
+
+.reproductionMb{
+    display: none;
+}
+
+.reproduction1Mb { 
+    display: none;
+}
+
+.buttonsMb{
+    display: none;
+}
+
+.btn1Mb{
+    display: none;
+}
+
+.btn2Mb{
+    display: none;
+}
+
+.btn3Mb{
+    display: none;
+}
+
+.cardsMb{
+    display: none;
+}
+
+.card2Mb{
+    display: none;
+}
+
+.authorMb{
+    display: none;
+}
+
+.nameMb{
+    display: none;
+}
+
+.materialsMb{
+    display: none;
+}
+
+.priceMb{
+    display: none;
+}
+
+.btncMb{
+    display: none;
+}
+
+.oldManMb{
+    display: none;
+}
+
+.teamMb{
+    display: none;
+}
+
+.textMb{
+    display: none;
+}
+
+.footerMb{
+    display: none;
+}
+
+.column1Mb{
+    display: none;
+}
+
+.numberMb{
+    display: none;
+}
+
+.phonenumberMb{
+    display: none;
+}
+
+.placeMb{
+    display: none;
+}
+
+.column2Mb{
+    display: none;
+}
+
+.menu1Mb{
+    display: none;
+}
+
+.repMb{
+    display: none;
+}
+
+.countryMb{
+    display: none;
+}
+
+.column3Mb{
+    display: none;
+}
+
+.menu2Mb{
+    display: none;
+}
+
+.rep1Mb{
+    display: none;
+}
+
+.column4Mb{
+    display: none;
+}
+
+.menu3Mb{
+    display: none;
+}
+
+.rep2Mb{
+    display: none;
+}
+
+.column5Mb{
+    display: none;
+}
+
+.menu4Mb{
+    display: none;
+}
 /*Для мобильной версии*/
 @media (max-width: 690px) {
-    .header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        width: 320px;
-        height: 65px;
-        background-color: #ffffff;
-    }
-
-    .desk-topMenuOnly {
-        display: none;
-    }
-
-    .menuMb {
-        background-color: #E1EDE6;
-        width: 320px;
-        height: 65px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .menuMb .menuIcon {
-        margin-left: 15px;
-    }
-
-    .menuMb .cartIcon {
-        margin-right: 15px;
-    }
-
-    .bird .birdImg {
-        display: none;
-    }
-
-    .bird {
-        width: 290px;
-        height: 233px;
-        display: flex;
-        align-items: self-start;
-    }
-
-    .replics h5 {
-     font-size: 30px;
-     font-weight: 500;
-     line-height: 100%;
-     letter-spacing: 0%;
-margin-top: 60px;
-    }
-
-  .replics {
-    margin-left: 0;
-    margin-right: 0;
-   
-
-  }
-
-
+    
 }
