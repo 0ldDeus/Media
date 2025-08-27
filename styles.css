@@ -54,7 +54,7 @@ body {
 .replics {
     width: 540px;
     height: 331px;
-    
+
 }
 
 .replics h5 {
@@ -411,245 +411,246 @@ body {
     display: none;
 }
 
-.cartIcon{
+.cartIcon {
     display: none;
 }
 
-.birdMb{
+.birdMb {
     display: none;
 }
 
-.replicsMb{
+.replicsMb {
     display: none;
 }
 
-.reproductionMb{
+.reproductionMb {
     display: none;
 }
 
-.reproduction1Mb { 
+.reproduction1Mb {
     display: none;
 }
 
-.buttonsMb{
+.buttonsMb {
     display: none;
 }
 
-.btn1Mb{
+.btn1Mb {
     display: none;
 }
 
-.btn2Mb{
+.btn2Mb {
     display: none;
 }
 
-.btn3Mb{
+.btn3Mb {
     display: none;
 }
 
-.cardsMb{
+.cardsMb {
     display: none;
 }
 
-.card2Mb{
+.card2Mb {
     display: none;
 }
 
-.authorMb{
+.authorMb {
     display: none;
 }
 
-.nameMb{
+.nameMb {
     display: none;
 }
 
-.materialsMb{
+.materialsMb {
     display: none;
 }
 
-.priceMb{
+.priceMb {
     display: none;
 }
 
-.btncMb{
+.btncMb {
     display: none;
 }
 
-.oldManMb{
+.oldManMb {
     display: none;
 }
 
-.teamMb{
+.teamMb {
     display: none;
 }
 
-.textMb{
+.textMb {
     display: none;
 }
 
-.footerMb{
+.footerMb {
     display: none;
 }
 
-.column1Mb{
+.column1Mb {
     display: none;
 }
 
-.numberMb{
+.numberMb {
     display: none;
 }
 
-.phonenumberMb{
+.phonenumberMb {
     display: none;
 }
 
-.placeMb{
+.placeMb {
     display: none;
 }
 
-.column2Mb{
+.column2Mb {
     display: none;
 }
 
-.menu1Mb{
+.menu1Mb {
     display: none;
 }
 
-.repMb{
+.repMb {
     display: none;
 }
 
-.countryMb{
+.countryMb {
     display: none;
 }
 
-.column3Mb{
+.column3Mb {
     display: none;
 }
 
-.menu2Mb{
+.menu2Mb {
     display: none;
 }
 
-.rep1Mb{
+.rep1Mb {
     display: none;
 }
 
-.column4Mb{
+.column4Mb {
     display: none;
 }
 
-.menu3Mb{
+.menu3Mb {
     display: none;
 }
 
-.rep2Mb{
+.rep2Mb {
     display: none;
 }
 
-.column5Mb{
+.column5Mb {
     display: none;
 }
 
-.menu4Mb{
+.menu4Mb {
     display: none;
 }
+
 /*Для мобильной версии*/
 @media (max-width: 690px) {
 
-    .header{
+    .header {
         display: none;
     }
 
-    .logo{
+    .logo {
         display: none;
     }
 
-    .desk-topMenuOnly{
+    .desk-topMenuOnly {
         display: none;
     }
 
-    .bird{
+    .bird {
         display: none;
     }
 
-    .birdImg{
+    .birdImg {
         display: none;
     }
 
-    .replics{
+    .replics {
         display: none;
     }
 
-    .products{
-display: none;
-    }
-
-    .reproduction{
+    .products {
         display: none;
     }
 
-    .reproduction1{
+    .reproduction {
         display: none;
     }
 
-    .buttons{
+    .reproduction1 {
         display: none;
     }
 
-    .btn1{
+    .buttons {
         display: none;
     }
 
-    .btn2{
+    .btn1 {
         display: none;
     }
 
-    .btn3{
+    .btn2 {
         display: none;
     }
 
-    .cards{
+    .btn3 {
         display: none;
     }
 
-    .card2{
+    .cards {
         display: none;
     }
 
-    .author{
+    .card2 {
         display: none;
     }
 
-    .name{
+    .author {
         display: none;
     }
 
-    .materials{
+    .name {
         display: none;
     }
 
-    .price{
+    .materials {
         display: none;
     }
 
-    .btnc{
+    .price {
         display: none;
     }
 
-    .oldMan{
+    .btnc {
         display: none;
     }
 
-    .team{
+    .oldMan {
         display: none;
     }
 
-    .text{
+    .team {
         display: none;
     }
 
-    .footer{
+    .text {
+        display: none;
+    }
+
+    .footer {
         display: none;
     }
 
@@ -657,73 +658,74 @@ display: none;
         display: none;
     }
 
-    .number{
+    .number {
         display: none;
     }
 
-    .phonenumber{
+    .phonenumber {
         display: none;
     }
 
-    .place{
+    .place {
         display: none;
     }
 
-    .column2{
+    .column2 {
         display: none;
     }
 
-    .menu1{
+    .menu1 {
         display: none;
     }
 
-    .rep{
+    .rep {
         display: none;
     }
 
-    .country{
+    .country {
         display: none;
     }
 
-    .column3{
+    .column3 {
         display: none;
     }
 
-.menu2{
-    display: none;
-}
+    .menu2 {
+        display: none;
+    }
 
-.rep1{
-    display: none;
-}
+    .rep1 {
+        display: none;
+    }
 
-.column4{
-    display: none;
-}
+    .column4 {
+        display: none;
+    }
 
-.menu3{
-    display: none;
-}
+    .menu3 {
+        display: none;
+    }
 
-.rep2{
-    display: block;
-}
+    .rep2 {
+        display: block;
+    }
 
-.column5{
-    display: none;
-}
+    .column5 {
+        display: none;
+    }
 
-.menu4{
-    display: none;
-}
+    .menu4 {
+        display: none;
+    }
 
+    /*Мобильная версия*/
 
     .headerMb {
         width: 320px;
         height: 130px;
     }
 
-    .headerMb .logoMb{
+    .headerMb .logoMb {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -731,7 +733,7 @@ display: none;
         height: 65px;
     }
 
-    .headerMb .menuMb{
+    .headerMb .menuMb {
         display: flex;
         justify-content: space-between;
         height: 65px;
