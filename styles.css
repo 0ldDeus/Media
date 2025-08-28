@@ -379,22 +379,6 @@ body {
     margin-right: 165px;
 }
 
-.menu2 {
-    list-style-type: none;
-}
-
-.menu1 {
-    list-style-type: none;
-}
-
-.menu3 {
-    list-style-type: none;
-}
-
-.menu4 {
-    list-style-type: none;
-}
-
 .headerMb {
     display: none;
 }
@@ -723,6 +707,7 @@ body {
     .headerMb {
         width: 320px;
         height: 130px;
+        display: block;
     }
 
     .headerMb .logoMb {
@@ -736,7 +721,25 @@ body {
     .headerMb .menuMb {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         height: 65px;
         background-color: #E1EDE6;
+        gap: 236px;
     }
+
+    .menuIcon,
+  .cartIcon {
+    display: flex; /* или flex, если нужно */
+  }
+
+  .menuMb {
+    display: flex;
+    margin: 0px 19px 0px 19px;
+  }
+
+  .birdMb {
+    display: block;
+    width: 320px;
+    height: auto;
+  }
 }
