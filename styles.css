@@ -703,7 +703,6 @@ body {
     }
 
     /*Мобильная версия*/
-
     .headerMb {
         width: 320px;
         height: 130px;
@@ -724,22 +723,23 @@ body {
         align-items: center;
         height: 65px;
         background-color: #E1EDE6;
-        gap: 236px;
     }
 
-    .menuIcon,
-  .cartIcon {
-    display: flex; /* или flex, если нужно */
-  }
+    .menuIcon, .cartIcon {
+        display: block;
+    }
 
-  .menuMb {
-    display: flex;
-    margin: 0px 19px 0px 19px;
-  }
+    .menuIcon {
+        margin-left: 15px;
+    }
 
-  .birdMb {
-    display: block;
-    width: 320px;
-    height: auto;
-  }
+    .cartIcon {
+        margin-right: 15px;
+    }
+
+    .birdMb{
+        width: 290px;
+        height: 233px;
+        display: flex;
+    }
 }
