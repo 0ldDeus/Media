@@ -707,6 +707,7 @@ body {
         width: 320px;
         height: 130px;
         display: block;
+        margin-bottom: 60px;
     }
 
     .headerMb .logoMb {
@@ -792,5 +793,144 @@ body {
         text-align: center;
     }
 
-    
+    .reproductionMb {
+        display: block;
+    }
+
+    .reproduction1Mb {
+        display: block;
+    }
+
+    .buttonsMb {
+        overflow-x: auto;
+        display: block;
+        margin-bottom: ;
+    }
+
+    .btn1Mb {
+        border: none;
+        border-radius: 20px;
+        background-color: #376B44;
+        padding: 10px 20px 10px 20px;
+        color: #F4F6F5;
+        font-family: "Raleway", sans-serif;
+        width: 118px;
+        height: 41px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        display: block;
+    }
+
+    .btn2Mb {
+        border: none;
+        border-radius: 20px;
+        background-color: #D4E8D9;
+        padding: 10px 20px 10px 20px;
+        color: #2C2D35;
+        font-family: "Raleway", sans-serif;
+        width: 125px;
+        height: 41px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        display: block;
+    }
+
+    .btn3Mb {
+        border: none;
+        border-radius: 20px;
+        background-color: #D4E8D9;
+        padding: 10px 20px 10px 20px;
+        color: #2C2D35;
+        font-family: "Raleway", sans-serif;
+        width: 125px;
+        height: 41px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        display: block;
+    }
+
+
+    .reproduction1Mb {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: #2C2D35;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+
+    .cardsMb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .card2Mb {
+        display: block;
+        padding: 20px 20px 30px 20px;
+        background-color: #E1EDE6;
+        width: fit-content;
+    }
+
+    .authorMb {
+        display: block;
+        color: #86928B;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-top: 20px;
+    }
+
+    .nameMb {
+        display: block;
+        color: #2C2D35;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+
+    ..materialsMb {
+        display: block;
+        color: #2C2D35;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-bottom: 30px;
+    }
+
+    .priceMb {
+        display: block;
+        color: #598D66;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+    }
+
+    .btncMb {
+        display: block;
+        color: #598D66;
+        background-color: #E1EDE6;
+        width: 250px;
+        height: 50px;
+        border: 1px solid #598D66;
+        font-weight: 500;
+        font-size: 18px;
+    }
 }
