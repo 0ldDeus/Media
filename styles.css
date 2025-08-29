@@ -725,7 +725,8 @@ body {
         background-color: #E1EDE6;
     }
 
-    .menuIcon, .cartIcon {
+    .menuIcon,
+    .cartIcon {
         display: block;
     }
 
@@ -737,9 +738,59 @@ body {
         margin-right: 15px;
     }
 
-    .birdMb{
+    .birdMb {
         width: 290px;
         height: 233px;
         display: flex;
     }
+
+    .InkHouse {
+        display: block;
+    }
+
+    .replicsMb {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .replicsMb h5 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #2C2D35;
+        margin-bottom: 20px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .replicsMb span {
+        color: #598D66;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .replicsMb p {
+        font-family: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #86928B;
+        margin-bottom: 40px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .productsMb {
+        color: #598D66;
+        background-color: #fdfaf6;
+        border: 1px solid #598D66;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        font-family: "Raleway", sans-serif;
+        width: 154px;
+        height: 50px;
+        text-align: center;
+    }
+
+    
 }
