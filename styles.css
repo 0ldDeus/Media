@@ -933,4 +933,57 @@ body {
         font-weight: 500;
         font-size: 18px;
     }
+
+    .oldManMb {
+        margin-top: 60px;
+        display: block;
+    }
+
+    .teamMb {
+        display: block;
+        align-items: center;
+        width: 290px;
+        height: 560px;
+    }
+
+    .textMbH4 {
+
+        color: #2C2D35;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 110%;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+    }
+
+    .textMb {
+        display: block;
+    }
+
+    .textMbP {
+        color: #2C2D35;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+    }
+
+    .footerMb {
+        display: block;
+        width: 320px;
+        height: 395px;
+        margin-top: 94px;
+    }
+
+    .footerMb1 {
+        display: block;
+    }
+
+    .column1Mb {
+        display: flex;
+        justify-self: start;
+        align-items: flex-start;
+    }
+
 }
