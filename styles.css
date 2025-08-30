@@ -1024,6 +1024,7 @@ body {
 
     .repMb {
         display: block;
+        text-decoration: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 100%;
@@ -1045,4 +1046,81 @@ body {
     display: block;
 }
 
+.menu2Mb{
+    display: block;
+}
+
+.rep1Mb{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2C2D35;
+}
+
+.date{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #86928B;
+}
+
+.column4Mb{
+    display: block;
+}
+
+.menu3Mb{
+    display: block;
+}
+
+.rep2Mb{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2C2D35;
+}
+
+.people{
+    display: block;
+    text-decoration: none;
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #86928B;
+}
+
+.lineMb{
+    display: block;
+}
+
+.line{
+    display: block;
+}
+
+.column5Mb{
+    display: block;
+}
+
+.menu4Mb{
+    display: block;
+}
+
+.finish {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #86928B;
+}
 }
