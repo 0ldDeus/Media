@@ -986,4 +986,20 @@ body {
         align-items: flex-start;
     }
 
+    .footerMb5 {
+        display: flex;
+    }
+
+    .numberMb{
+        display: block;
+    }
+
+    .phonenumberMb{
+        display: block;
+    }
+
+    .placeMb {
+        display: block;
+    }
+
 }
