@@ -1123,4 +1123,9 @@ body {
     letter-spacing: 0%;
     color: #86928B;
 }
+
+.mobile {
+    display: block;
+    align-items: center;
+}
 }
