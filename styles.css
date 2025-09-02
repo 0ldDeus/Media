@@ -974,28 +974,29 @@ body {
         width: 320px;
         height: 395px;
         margin-top: 94px;
-        justify-content: center;
         background-color: #E1EDE6;
     }
 
     .footerMb1 {
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 столбца одинаковой ширины */
+        grid-template-rows: repeat(2, auto);
 
     }
 
     .column1Mb {
         display: flex;
-        justify-self: start;
-        align-items: flex-start;
+        justify-self: left;
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 143px;
+        height: 35px;
     }
 
     .footerMb5 {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         text-align: left;
 
     }
@@ -1003,12 +1004,10 @@ body {
     .numberMb {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-
     }
 
     .phonenumberMb {
-        display: block;
+        display: flex;
         font-weight: 500;
         font-size: 16px;
         line-height: 100%;
@@ -1031,7 +1030,6 @@ body {
     .column3Mb,
     .column4Mb {
         display: flex;
-        flex-direction: column;
     }
 
     .menu1Mb,
