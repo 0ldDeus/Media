@@ -970,44 +970,30 @@ body {
     }
 
     .footerMb {
-        display: flex;
+        display: block;
         width: 320px;
         height: 395px;
         margin-top: 94px;
         background-color: #E1EDE6;
     }
 
-    .footerMb1 {
 
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* 2 столбца одинаковой ширины */
-        grid-template-rows: repeat(2, auto);
-
-    }
 
     .column1Mb {
         display: flex;
-        justify-self: left;
+        justify-self: start;
         margin-top: 20px;
         margin-left: 15px;
-        width: 143px;
-        height: 35px;
     }
 
-    .footerMb5 {
-        display: flex;
-        text-align: left;
-
-    }
 
     .numberMb {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        margin-left: 15px;
     }
 
     .phonenumberMb {
-        display: flex;
+        display: block;
         font-weight: 500;
         font-size: 16px;
         line-height: 100%;
@@ -1026,21 +1012,14 @@ body {
         color: #86928B;
     }
 
-    .column2Mb,
-    .column3Mb,
-    .column4Mb {
-        display: flex;
+    .column2Mb {
+        display: block;
     }
 
-    .menu1Mb,
-    .menu2Mb,
-    .menu3Mb {
+    .menu1Mb {
+        display: block;
         list-style: none;
-        padding: 0;
-        margin: 0;
     }
-
-
 
     .repMb {
         display: block;
@@ -1062,6 +1041,15 @@ body {
         color: #86928B;
     }
 
+    .column3Mb {
+        display: block;
+    }
+
+    .menu2Mb {
+        display: block;
+        list-style: none;
+        margin-left: 15px;
+    }
 
     .rep1Mb {
         display: block;
@@ -1083,13 +1071,14 @@ body {
         color: #86928B;
     }
 
-    .column5Mb {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        margin-top: 20px;
+    .column4Mb {
+        display: block;
     }
 
+    .menu3Mb {
+        display: block;
+        list-style: none;
+    }
 
     .rep2Mb {
         display: block;
@@ -1117,19 +1106,20 @@ body {
 
     .line {
         display: block;
+        margin-bottom: 20px;
     }
 
-
+    .column5Mb {
+        display: block;
+    }
 
     .menu4Mb {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+        display: block;
+        align-items: center;
     }
 
-
     .finish {
-        display: flexx;
+        display: block;
         text-decoration: none;
         font-weight: 500;
         font-size: 12px;
@@ -1142,8 +1132,19 @@ body {
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
     }
 
+    .footerMb5 {
+     display: flex;
+     align-items: center;
+
+    }
+
+    . .footerMb6 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+    }
 
 }
