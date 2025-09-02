@@ -804,7 +804,7 @@ body {
     .buttonsMb {
         overflow-x: auto;
         display: block;
-       
+
     }
 
     .btn1Mb {
@@ -970,14 +970,20 @@ body {
     }
 
     .footerMb {
-        display: block;
+        display: flex;
         width: 320px;
         height: 395px;
         margin-top: 94px;
+        justify-content: center;
+        background-color: #E1EDE6;
     }
 
     .footerMb1 {
-        display: block;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .column1Mb {
@@ -988,10 +994,17 @@ body {
 
     .footerMb5 {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+
     }
 
     .numberMb {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
     }
 
     .phonenumberMb {
@@ -1014,13 +1027,22 @@ body {
         color: #86928B;
     }
 
-    .column2Mb {
-        display: block;
+    .column2Mb,
+    .column3Mb,
+    .column4Mb {
+        display: flex;
+        flex-direction: column;
     }
 
-    .menu1Mb {
-        display: block;
+    .menu1Mb,
+    .menu2Mb,
+    .menu3Mb {
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
+
+
 
     .repMb {
         display: block;
@@ -1042,90 +1064,88 @@ body {
         color: #86928B;
     }
 
-.column3Mb{
-    display: block;
-}
 
-.menu2Mb{
-    display: block;
-}
-
-.rep1Mb{
-    display: block;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #2C2D35;
-}
-
-.date{
-    display: block;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    color: #86928B;
-}
-
-.column4Mb{
-    display: block;
-}
-
-.menu3Mb{
-    display: block;
-}
-
-.rep2Mb{
-    display: block;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #2C2D35;
-}
-
-.people{
-    display: block;
-    text-decoration: none;
+    .rep1Mb {
+        display: block;
+        text-decoration: none;
         font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    color: #86928B;
-}
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #2C2D35;
+    }
 
-.lineMb{
-    display: block;
-}
+    .date {
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #86928B;
+    }
 
-.line{
-    display: block;
-}
+    .column5Mb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-.column5Mb{
-    display: block;
-}
 
-.menu4Mb{
-    display: block;
-}
+    .rep2Mb {
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #2C2D35;
+    }
 
-.finish {
-    display: block;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #86928B;
-}
+    .people {
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #86928B;
+    }
 
-.mobile {
-    display: block;
-    align-items: center;
-}
+    .lineMb {
+        display: block;
+    }
+
+    .line {
+        display: block;
+    }
+
+
+
+    .menu4Mb {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .finish {
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: #86928B;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
 }
