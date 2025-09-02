@@ -975,6 +975,8 @@ body {
         height: 395px;
         margin-top: 94px;
         background-color: #E1EDE6;
+        flex-direction: column;
+
     }
 
 
@@ -990,6 +992,7 @@ body {
     .numberMb {
         display: block;
         margin-left: 15px;
+
     }
 
     .phonenumberMb {
@@ -1019,6 +1022,7 @@ body {
     .menu1Mb {
         display: block;
         list-style: none;
+        margin-right: 25px;
     }
 
     .repMb {
@@ -1078,6 +1082,7 @@ body {
     .menu3Mb {
         display: block;
         list-style: none;
+        margin-right: 33px;
     }
 
     .rep2Mb {
@@ -1105,8 +1110,9 @@ body {
     }
 
     .line {
-        display: block;
+        display: flex;
         margin-bottom: 20px;
+        align-items: center;
     }
 
     .column5Mb {
@@ -1135,16 +1141,18 @@ body {
     }
 
     .footerMb5 {
-     display: flex;
-     align-items: center;
-
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
     }
 
-    . .footerMb6 {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-
+    .footerMb6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
     }
 
 }
