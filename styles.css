@@ -314,6 +314,12 @@ body {
     color: #2C2D35;
 }
 
+.menu1, .menu2, .menu3, .menu4 {
+    list-style: none;
+}
+
+
+
 .column3 a {
     text-decoration: none;
     font-weight: 500;
